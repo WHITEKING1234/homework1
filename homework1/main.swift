@@ -106,3 +106,4 @@ func add9(num102:Int){
     print("19-\(num102)=\(num102-19)")
 }
 let f8 = add9(num102: 19)
+//19
