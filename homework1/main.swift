@@ -15,6 +15,7 @@ func solo(num: Int) ->Int{
     return num*num
 }
 let a = solo(num: 2)
+//ответ 4
 
 
 func solo2(num1: Int) -> Int{
@@ -22,17 +23,19 @@ func solo2(num1: Int) -> Int{
     return num1*num1*num1
 }
 let b = solo2(num1: 3)
+//ответ27
 
 print("Нахождение пириметр Прямоугольника")
 func solo3(num3:Int) ->Int{
     print("S прямоугольник  (a=5*b=5) 5*\(num3) = \(num3*num3)")
-
+//ответ 25
     return num3*num3
     
 }
 let f = solo3(num3: 5)
 
 print("S=чило.PI*R")
+
 
 func solo222(num23:Double){
     print("Площадь круга 9*\(num23) = \(num23*9)")
@@ -53,13 +56,14 @@ func add1(num42 :Int) {
 }
         
 let a2 = add1(num42: 78)
-
+//ответ2184
 
 print("+")
 func add2(num44 :Double){
     print("2.3+\(num44) = \(num44+2.3)")
 }
 let a3 = add2(num44: 4.2)
+//ответ 6.5
 
 print("-")
 
@@ -67,6 +71,7 @@ func add3(num45 : Int){
     print("78-\(num45)=\(num45-78)")
 }
 let a4 = add3(num45: 100)
+//ответ 22
 
 print("/")
 
@@ -74,7 +79,7 @@ func add5(num56 :Int){
     print("3/\(num56)=\(num56/3)")
 }
 let f3 = add5(num56: 9)
-
+//ответ3
 
 func add6(num66 :Double){
     print("-7.14*\(num66)=\(num66 * -7.14)")
